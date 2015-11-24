@@ -1,1 +1,6 @@
 rjil::system::ntp::server: true
+postfix::myhostname: controller.tools.jio.com
+postfix::mydomain: ril.com
+postfix::mydestination: " %{::fqdn}, localhost"
+postfix::relayhost: 10.137.2.23
+
