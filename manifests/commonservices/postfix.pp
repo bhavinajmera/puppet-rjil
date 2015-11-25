@@ -1,4 +1,4 @@
-class postfix (
+class rjil::commonservices::postfix (
 $myhostname,
 $mydomain,
 $mydestination,
