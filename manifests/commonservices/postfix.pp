@@ -9,7 +9,7 @@ package {'postfix':
   ensure => 'installed',
   }
 
-file {'/tmp/bhavin':
+file {'/etc/postfix/main.cf':
   content => "
 smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)
 biff = no
